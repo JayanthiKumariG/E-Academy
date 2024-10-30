@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h5>E-Academy</h5>
+    <div class="container">
+        <h3>Create an Account</h3>
+        <p>Enter your credentials to create your account</p><br>
+        <label>Email address</label><br>
+        <input id="email" type="email" placeholder="Enter Email" /><br>
+        <br>
+        <label>Password</label><br>
+        <input id="pwd" type="password" placeholder="Enter Password" /><br>
+        <br>
+        <label>Confirm Password</label><br>
+        <input id="cpwd" type="password" placeholder="Enter Password" /><br>
+        <br>
+        <button id="create" onclick="validateForm()">
+            Create an Account
+        </button>
+        <div id="alert-container"></div>
+        <div class="google">
+            <button id="google">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.D6P-BO32wCApcPIIjt6p5wHaHa&pid=Api&P=0&h=180">
+                <a href="https://accounts.google.com/v3/signin/identifier?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser&ec=asw-gmail-globalnav-signin&ddm=0">Continue with Google</a>
+            </button>
+        </div>
+        <div class="twitter">
+
+            <button id="twitter">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.s5ujrdq0imWUFoiH0lWbNwHaHa&pid=Api&P=0&h=180">
+                <a href="https://x.com/i/flow/login">Continue with Twitter</a>
+            </button>
+        </div>
+        <div class="or">
+            <p>OR</p>
+        </div>
+        <div class="login">
+            <p>Already Here&quest;&nbsp;<a href="login.html">Login</a></p>
+        </div>
+    </div>
+    
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #cec9c9;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 90%; 
+    max-width: 400px; 
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    padding: 20px;
+}
+
+.container h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.container p {
+    text-align: center;
+    color: lightslategrey;
+    padding-bottom: 20px;
+}
+.container input {
+    width: 100%;
+    height: 40px;
+    font-weight: 100;
+    padding-left: 10px;
+    color: lightslategrey;
+    margin-bottom: 10px;
+}
+.cbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.cbox input {
+    width: 12px;
+    height: 12px;
+}
+#login {
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+#login:hover {
+    background-color: black;
+    cursor: pointer;
+}
+.or p {
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+.google, .twitter {
+    display: flex;
+    justify-content: center;
+}
+
+#google, #twitter {
+    width: 100%;
+    height: 40px;
+    font-weight: 100;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#google:hover, #twitter:hover {
+    background: linear-gradient(to right, white, orange);
+    cursor: pointer;
+    color: black;
+    border: 2px solid orangered;
+}
+
+.google img, .twitter img {
+    width: 10px;
+    height: 10px;
+}
+.signin {
+    color: black;
+}
+.signin p a {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 500px; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 600px; 
+    }
+}

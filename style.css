@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #cec9c9;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+h5 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.container {
+    width: 90%; 
+    max-width: 400px; 
+    margin: auto;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.container h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.container p {
+    text-align: center;
+    color: lightslategrey;
+}
+
+/* Input Fields */
+.container input {
+    width: 100%;
+    height: 40px;
+    font-weight: 100;
+    padding-left: 10px;
+    color: lightslategrey;
+}
+
+#create {
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+#create:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.google, .twitter {
+    display: flex;
+    justify-content: center;
+}
+
+#google, #twitter {
+    width: 100%;
+    height: 40px;
+    font-weight: 100;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#google:hover, #twitter:hover {
+    background: linear-gradient(to right, white, orange);
+    cursor: pointer;
+    color: black;
+    border: 2px solid orangered;
+}
+#google a{
+    text-decoration: none;
+}
+#twitter a{
+    text-decoration: none;
+}
+.google img, .twitter img {
+    width: 10px;
+    height: 10px;
+}
+.login a{
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 600px;
+    }
+}
